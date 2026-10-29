@@ -1,0 +1,7 @@
+export const INJECTED_ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs><linearGradient id="wy" x1="64" y1="0" x2="448" y2="512" gradientUnits="userSpaceOnUse"><stop stop-color="#254777"/><stop offset="1" stop-color="#0c1633"/></linearGradient></defs>
+  <rect width="512" height="512" rx="128" fill="url(#wy)"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" stroke="#8ccaff" stroke-opacity=".22" stroke-width="2"/>
+  <path d="m96 182 40 148 58-94 49 94 43-148" stroke="#fff" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m307 182 54 75 55-75m-55 75v73" stroke="#64e7ee" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>`;
