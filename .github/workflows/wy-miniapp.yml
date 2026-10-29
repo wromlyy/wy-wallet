@@ -29,6 +29,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci --no-audit --no-fund
+      - run: npm run i18n:build:default
       - run: npx tsc --noEmit
       - run: APP_ENV=test npx jest src/config.matrix.test.ts src/util/langProvider.test.ts --runInBand
       - run: npm run telegram:build:production
